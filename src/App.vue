@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:container lg:mx-auto my-5 mx-1.5">
+  <div class="lg:container mx-1.5 lg:mx-auto my-5 overflow-hidden">
     <div class="grid grid-cols-12 xxs:px-3">
       <div class="border-b border-black xxs:col-span-12 md:col-span-7 lg:col-span-6 2xl:col-span-5 hCont uppercase font-medium relative md:mx-4">
         <p>
@@ -75,7 +75,7 @@
 
         </div>
       </div>
-      <div class="xxs:col-span-12 xl:col-span-2 md:ml-3 overflow-x-scroll">
+      <div class="xxs:col-span-12 xl:col-span-2 md:ml-3">
         <div class="grid grid-cols-12 xxs:my-8 my-0 gap-x-4">
 
           <div class="col-span-12 uppercase text-1xl mb-4 trending">
@@ -85,25 +85,26 @@
             <p>Trend<em class="font-thin">ing</em></p>
           </div> 
 
-          <div class="xxs:col-span-3 xl:col-span-12 border-t border-black mt-3">
-            <time class="text-xs tracking-tight text-gray-700 my-2 mb-2 uppercase small-heading">Novemeber 23, 2020</time>
-            <p class="text-base text-right leading-4 font-medium uppercase tracking-tighter text-gray-900 my-7">Isla Beauty Is Reimagining What Transparency Looks Like In Skincare</p>
-          </div> 
+          <div class="col-span-12  mt-4 bg-blue flex xxs:flex-row lg:flex-col overflow-x-scroll xxs:border-t md:border-none border-black">
 
-          <div class="xxs:col-span-3 xl:col-span-12 border-t border-black mt-3">
-            <time class="text-xs tracking-tight text-gray-700 my-2 mb-2 uppercase small-heading">Novemeber 23, 2020</time>
-            <p class="text-base text-right leading-4 font-medium uppercase tracking-tighter text-gray-900 my-7">Isla Beauty Is Reimagining What Transparency Looks Like In Skincare</p>
-          </div> 
+            <div class="xxs:w-auto md:w-1/3 lg:w-full mx-1 :xxs:border-b md:border-t border-black mt-3">
+              <time class="text-xs tracking-tight text-gray-700 my-2 mb-2 uppercase small-heading">Novemeber 23, 2020</time>
+              <p class="text-base text-right leading-4 font-medium uppercase tracking-tighter text-gray-900 my-7">Isla Beauty Is Reimagining What Transparency Looks Like In Skincare</p>
+            </div> 
 
-          <div class="xxs:col-span-3 xl:col-span-12 border-t border-black mt-3">
-            <time class="text-xs tracking-tight text-gray-700 my-2 mb-2 uppercase small-heading">Novemeber 23, 2020</time>
-            <p class="text-base text-right leading-4 font-medium uppercase tracking-tighter text-gray-900 my-7">Isla Beauty Is Reimagining What Transparency Looks Like In Skincare</p>
-          </div> 
+            <div class="xxs:w-auto md:w-1/3 lg:w-full mx-1 :xxs:border-b md:border-t border-black mt-3">
+              <time class="text-xs tracking-tight text-gray-700 my-2 mb-2 uppercase small-heading">Novemeber 23, 2020</time>
+              <p class="text-base text-right leading-4 font-medium uppercase tracking-tighter text-gray-900 my-7">Isla Beauty Is Reimagining What Transparency Looks Like In Skincare</p>
+            </div> 
 
-          <div class="xxs:col-span-3 xl:col-span-12 border-t border-black mt-3">
-            <time class="text-xs tracking-tight text-gray-700 my-2 mb-2 uppercase small-heading">Novemeber 23, 2020</time>
-            <p class="text-base text-right leading-4 font-medium uppercase tracking-tighter text-gray-900 my-7">Isla Beauty Is Reimagining What Transparency Looks Like In Skincare</p>
-          </div> 
+            <div class="xxs:w-auto md:w-1/3 lg:w-full mx-1 :xxs:border-b md:border-t border-black mt-3">
+              <time class="text-xs tracking-tight text-gray-700 my-2 mb-2 uppercase small-heading">Novemeber 23, 2020</time>
+              <p class="text-base text-right leading-4 font-medium uppercase tracking-tighter text-gray-900 my-7">Isla Beauty Is Reimagining What Transparency Looks Like In Skincare</p>
+            </div> 
+
+           
+          </div>
+
 
          
         </div>
