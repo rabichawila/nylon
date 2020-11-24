@@ -7,3 +7,8 @@
     font-display:swap;
     src:url(https://cdn2.bustle.com/nylon/2020/PostGrotesk-Medium-a7de063401.woff2) format("woff2")
 }
+@font-face{
+    font-family:FairplayScript;
+    font-display:swap;
+    src:url(https://cdn2.bustle.com/nylon/2020/FairplayScript-Regular-bf52ebc645.woff2) format("woff2")
+}
