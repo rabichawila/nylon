@@ -85,23 +85,14 @@
             <p>Trend<em class="font-thin">ing</em></p>
           </div> 
 
-          <div class="col-span-12  mt-4 bg-blue flex xxs:flex-row lg:flex-col overflow-x-scroll xxs:border-t md:border-none border-black">
+          <div class="col-span-12  mt-4 bg-blue flex xxs:flex-row xl:flex-col xxs:overflow-x-scroll md:overflow-hidden xxs:border-t md:border-none border-black">
 
-            <div class="xxs:w-auto md:w-1/3 lg:w-full mx-1 :xxs:border-b md:border-t border-black mt-3">
+            <div class="xxs:w-auto md:w-9/12 xl:w-full mx-1 :xxs:border-b md:border-t border-black mt-3" v-for="i in 5 " :key="i">
               <time class="text-xs tracking-tight text-gray-700 my-2 mb-2 uppercase small-heading">Novemeber 23, 2020</time>
               <p class="text-base text-right leading-4 font-medium uppercase tracking-tighter text-gray-900 my-7">Isla Beauty Is Reimagining What Transparency Looks Like In Skincare</p>
             </div> 
 
-            <div class="xxs:w-auto md:w-1/3 lg:w-full mx-1 :xxs:border-b md:border-t border-black mt-3">
-              <time class="text-xs tracking-tight text-gray-700 my-2 mb-2 uppercase small-heading">Novemeber 23, 2020</time>
-              <p class="text-base text-right leading-4 font-medium uppercase tracking-tighter text-gray-900 my-7">Isla Beauty Is Reimagining What Transparency Looks Like In Skincare</p>
-            </div> 
-
-            <div class="xxs:w-auto md:w-1/3 lg:w-full mx-1 :xxs:border-b md:border-t border-black mt-3">
-              <time class="text-xs tracking-tight text-gray-700 my-2 mb-2 uppercase small-heading">Novemeber 23, 2020</time>
-              <p class="text-base text-right leading-4 font-medium uppercase tracking-tighter text-gray-900 my-7">Isla Beauty Is Reimagining What Transparency Looks Like In Skincare</p>
-            </div> 
-
+     
            
           </div>
 
