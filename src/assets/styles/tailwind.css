@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+    font-family:PostGrotesk;
+    font-display:swap;
+    src:url(https://cdn2.bustle.com/nylon/2020/PostGrotesk-Medium-a7de063401.woff2) format("woff2")
+}
