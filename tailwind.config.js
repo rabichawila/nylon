@@ -42,6 +42,7 @@ module.exports = {
     },
 
     letterSpacing: {
+      insane: '-.050em',
       tightest: '-.075em',
        tighter: '-.05em',
       tight: '-.025em',

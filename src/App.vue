@@ -1,6 +1,6 @@
 <template>
 <div class="container mx-auto my-5">
-  <div class="grid grid-cols-12 xxs:px-3 px-0">
+  <div class="grid grid-cols-12 xxs:px-3 px-0 mx-2">
     <div class="border-b border-black xxs:col-span-12 md:col-span-7 lg:col-span-6 2xl:col-span-5" id="heading-cont">
       <p class="uppercase xxs:tracking-tight md:tracking-tightest xxs:pb-10 sm:pb-2 bg-right-bottom xxs:text-6xl md:text-8xl lg:text-9xl bg-signature bg-no-repeat xxs:font-semibold sm:font-normal md:font-semibold" id="heading">Latest</p>
     </div>
@@ -8,8 +8,10 @@
 
     <div class="grid grid-cols-12">
 
-      <div class="xxs:col-span-12 md:col-span-5 mt-5">
-        <p class="text-sm">NYLON NINETEEN</p>
+      <div class="xxs:col-span-12 md:col-span-6 lg:col-span-5 mt-5 mx-2">
+        <p class="text-xs text-gray-700">POP-PUNK WEEK</p>
+        <p class="xxs:w-3/4 md:w-4/5 text-4xl my-3 font-medium tracking-insane uppercase">A look back at wrapped tour's most formative beauty moments</p>
+        <img src="/imgs/img1.jpg" class="object-fill h-auto w-full" alt="" srcset="">
       </div>
     </div>
 </div>
