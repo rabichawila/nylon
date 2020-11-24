@@ -10,11 +10,7 @@ module.exports = {
     './src/**/*.vue',
   ],
   theme: {
-    extend: {
-      backgroundImage: theme => ({
-       'signature': "url('https://cdn2.bustle.com/nylon/2020/scribble-920a660055.svg')",
-      })
-    },    
+
     screens: {
       'xxs': '320px',
       // => @media (min-width: 320px) { ... }
@@ -44,22 +40,26 @@ module.exports = {
     letterSpacing: {
       insane: '-.050em',
       tightest: '-.075em',
-       tighter: '-.05em',
+      tighter: '-.05em',
       tight: '-.025em',
-       normal: '0',
+      normal: '0',
       wide: '.025em',
-       wider: '.05em',
+      wider: '.05em',
       widest: '.1em',
       widest: '.25em',
-     },
+    },
 
     backgroundPosition: {
       'top-5': 'right top 1rem',
       'bottom-5': 'right bottom -1rem',
     },
-    padding:{
+    padding: {
       'min-40': '-50px'
-    }     
+    },
+
+    fontFamily: {
+      'sans': ['PostGrotesk', 'Arial']
+    }
   },
   variants: {},
   plugins: [],
