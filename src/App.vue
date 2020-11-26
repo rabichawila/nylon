@@ -19,8 +19,8 @@
 
 
 
-      <div class="xxs:col-span-12 md:col-span-5 xl:col-span-4 mt-4 md:mt-0  border-t md:border-none border-black">
-        <div class="grid grid-cols-12 md:gap-x-4">
+      <div class="xxs:col-span-12 md:col-span-5 xl:col-span-4 mt-4 md:mt-0 mr-2 xl:mr-0  border-t md:border-none border-black">
+        <div class="grid grid-cols-12 gap-x-4">
 
 
           <div class="xxs:col-span-12 md:col-span-6 mb-3 z-40 xxs:mb-6 border-b md:border-none border-black">
@@ -31,7 +31,7 @@
               <div class="col-span-12 order-1 md:order-2 tSD">
                 <p class="text-sm lg:text-xs tracking-tight text-gray-700 my-2 mb-2 uppercase small-heading">POP-PUNK WEEK</p>
                 <div class="flex flex-row-reverse">
-                  <p class="atX w-4/5 text-2xl md:text-base text-right font-medium uppercase tracking-tighter text-gray-900 my-4 mb-2">Punk gets its overdue fashion comeback for 2020 and beyond</p>
+                  <p class="atX w-4/5 :md:w-full text-2xl md:text-base text-right font-medium uppercase tracking-tighter text-gray-900 my-4 mb-2">Punk gets its overdue fashion comeback for 2020 and beyond</p>
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@
               <div class="col-span-12 order-1 md:order-2 tSD">
                 <p class="text-sm lg:text-xs tracking-tight text-gray-700 my-2 mb-2 uppercase small-heading">POP-PUNK WEEK</p>
                 <div class="flex flex-row-reverse">
-                  <p class="atX w-4/5 text-2xl md:text-base text-right font-medium uppercase tracking-tighter text-gray-900 my-4 mb-2">private icon: hayley williams</p>
+                  <p class="atX w-4/5 :md:w-full text-2xl md:text-base text-right font-medium uppercase tracking-tighter text-gray-900 my-4 mb-2">private icon: hayley williams</p>
                 </div>
               </div>
             </div>
@@ -59,13 +59,13 @@
               <div class="col-span-12 order-1 md:order-2 tSD">
                 <p class="text-sm lg:text-xs tracking-tight text-gray-700 my-2 mb-2 uppercase small-heading">POP-PUNK WEEK</p>
                 <div class="flex flex-row-reverse">
-                  <p class="atX w-4/5 text-2xl md:text-base text-right font-medium uppercase tracking-tighter text-gray-900 my-4 mb-2">Oral history of the mid-2000s scene queens</p>
+                  <p class="atX w-4/5 :md:w-full text-2xl md:text-base text-right font-medium uppercase tracking-tighter text-gray-900 my-4 mb-2">Oral history of the mid-2000s scene queens</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="xxs:col-span-12 md:col-span-6 mb-3 xxs:mb-6 border-b md:border-none border-black">
+          <div class="xxs:col-span-12 md:col-span-6 mb-3 ">
             <div class="h-full grid grid-cols-12 content-end ">
               <div class="col-span-12 xxs:order-2 md:order-1 mb-5 md:mb-0">
                 <img src="/imgs/img3.jpg" class="object-cover h-auto w-full" alt="" srcset="">
@@ -73,7 +73,7 @@
               <div class="col-span-12 order-1 md:order-2 tSD">
                 <p class="text-xs tracking-tight text-gray-700 my-2 mb-2 uppercase small-heading">POP-PUNK WEEK</p>
                 <div class="flex flex-row-reverse">
-                  <p class="atX w-4/5 text-2xl md:text-base text-right font-medium uppercase tracking-tighter text-gray-900 my-4 mb-2">megan thee stallion's new album will feature sza, popcaan & city girls</p>
+                  <p class="atX w-4/5 :md:w-full text-2xl md:text-base text-right font-medium uppercase tracking-tighter text-gray-900 my-4 mb-2">megan thee stallion's new album will feature sza, popcaan & city girls</p>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@
         </div>
       </div>
       
-      <div class="xxs:col-span-12 xl:col-span-2 md:ml-3">
+      <div class="xxs:col-span-12 xl:col-span-2 md:ml-3 mb-4">
         <div class="grid grid-cols-12 xxs:my-8 my-0 gap-x-4">
 
           <div class="col-span-12 uppercase text-1xl mb-4 trending">
@@ -94,11 +94,11 @@
             <p>Trend<em class="font-thin">ing</em></p>
           </div> 
 
-          <div class="col-span-12  mt-4 flex flex-row xl:flex-col xxs:overflow-x-scroll md:overflow-hidden">
+          <div class="col-span-12  mt-4 flex xxs:flex-row xl:flex-col space-x-4 overflow-x-auto xl:overflow-x-hidden">
 
-            <div class="mx-2 md:-mx-0 border-t border-black mt-3 w-3/4 md:w-full" v-for="i in 5 " :key="i">
+            <div class="w-3/5 md:w-4/12 xl:w-full flex-grow flex-shrink-0 border-t border-black mt-3" v-for="i in 5 " :key="i">
               <time class="text-xs tracking-tight text-gray-700 my-2 mb-2 uppercase small-heading">Novemeber 23, 2020</time>
-              <p class="text-base text-right leading-4 font-medium uppercase tracking-tighter text-gray-900 my-7">Isla Beauty Is Reimagining What Transparency Looks Like In Skincare</p>
+              <p class="text-base text-right leading-5 font-medium uppercase tracking-tighter text-gray-900 my-7">Isla Beauty Is Reimagining What Transparency Looks Like In Skincare</p>
             </div> 
            
           </div>
@@ -157,6 +157,9 @@ export default {
   line-height: 1.5rem !important;
 }
 
+.sds{
+  width: 50vw !important;
+}
 
 @media (min-width: 768px){
   .hCont{
